@@ -26,7 +26,7 @@ SOFTWARE.
  ----------------------------------------------------------------------------------
  Macros To Pseudo Language Example
  ----------------------------------------------------------------------------------
- version			: 0.0.1
+ version	: 0.0.1
  last update date	: 14/December/2015
 */
 
@@ -38,8 +38,8 @@ int main()
 inicio
   
   escrevac("Ola, meu número exemplo é ",1);
-  if(VERDADE) 
-  inicio
+  
+  se(VERDADE) 
     escrevac("saída de dados com concatenacao do numero (no final): ",2);
     escreva("saída de dados sem concatenacao :)");
   fimse
